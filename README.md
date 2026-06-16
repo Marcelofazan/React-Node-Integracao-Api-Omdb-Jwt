@@ -66,38 +66,12 @@ npm run dev
 
 O Projeto é Frontend é executado em **http://localhost:5173/**
 
-#### 🧪 Executar Testes
+#### 🧪 Executar Testes Unitários
 
-#### Jest
 VSCode Terminal [3]
 ```bash
 npx jest
 ```
-
-#### Postman
-
-**1 -Registrar**
-- Enviar POST / Paciente: **http://localhost:3000/api/auth/register**, selecionar Guia Body -> escolher RAW e enviar o seguinte Content-Type: application/json 
-  ```json
-{
-    "username" : "marcelo2@gmail.com",
-    "email" : "marcelo2@gmail.com",
-    "password" : "123123"
-}
-  ```
-
-**2 -Login**
-- Enviar POST / Paciente: **http://localhost:3000/api/auth/login**, selecionar Guia Body -> escolher RAW e enviar o seguinte Content-Type: application/json 
-  ```json
-{
-    "email" : "marcelo2@gmail.com",
-    "password" : "123123"
-}
-  ```
-
-
-
-
 
 
 
