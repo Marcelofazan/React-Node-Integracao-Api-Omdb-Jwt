@@ -5,7 +5,6 @@ import Register from "../frontend/src/pages/Register";
 
 // Certifique-se de que a pasta 'contexts' está dentro da sua pasta 'src'
 import { AuthProvider } from "../frontend/src/contexts/AuthContext"; 
-import TesteSenha from '../TesteSenha'; // Arquivo teste para criar senha criptografada
 
 function Home() {
   const [message, setMessage] = useState("Waiting for backend...");
@@ -61,7 +60,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/TesteSenha" element={<TesteSenha />} />
         </Routes>
       </AuthProvider>
     </BrowserRouter>
