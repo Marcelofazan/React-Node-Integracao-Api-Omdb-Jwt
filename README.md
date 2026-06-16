@@ -3,8 +3,8 @@ Exemplo de Integração OMDb Api em Node.js e React com banco de dados SQL-Serve
 
 #### 📋 O que voçê vai ver nesse Projeto
 
-| HOST | URL |
-|-----------|-----------|
+| Tecnologia | Descrição |
+|-----------|------------|
 | .env | Gerenciar variáveis de ambiente, garantindo segurança (não expor senhas/chaves) e flexibilidade entre ambientes (desenvolvimento, produção)|
 | LocalStorage | Armazenamento em cache de dados no navegador de forma persistente em pares de chave e valor |
 | Jest | Ferramenta framework de testes |
