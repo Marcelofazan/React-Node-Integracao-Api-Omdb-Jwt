@@ -11,7 +11,7 @@ Exemplo de Integração OMDb Api em Node.js e React com banco de dados SQL-Serve
 | JWT | É um crachá digital usado para identificar usuários e trocar informações de forma segura entre computadores |
 | Swagger | Criar, documentar e consumir APIs RESTful. |
 
-📁 Requisitos do Projeto
+#### 📁 Requisitos do Projeto
 Necessário Habilitar TCP/IP no SQLServer Configuration Manager 
 
 - Passo 1: Forçar a porta 1433 no TCP/IPNo lado direito, clique com o botão direito em TCP/IP e escolha Properties (Propriedades).
