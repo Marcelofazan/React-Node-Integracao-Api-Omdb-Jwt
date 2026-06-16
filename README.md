@@ -9,7 +9,6 @@ Exemplo de Integração Api OMDB com Autorização JWT em React e Node.js com ba
 | LocalStorage | Armazenamento em cache de dados no navegador de forma persistente em pares de chave e valor |
 | Jest | Ferramenta framework de testes |
 | JWT | É um crachá digital usado para identificar usuários e trocar informações de forma segura entre computadores |
-| Swagger | Criar, documentar e consumir APIs RESTful. |
 
 #### 📁 Requisitos do Projeto
 Necessário Habilitar TCP/IP no SQLServer Configuration Manager 
