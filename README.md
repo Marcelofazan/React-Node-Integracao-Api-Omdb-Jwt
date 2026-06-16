@@ -49,11 +49,11 @@ npx tsx src/index.ts
 
 | HOST | URL |
 |-----------|-----------|
-| Metodo: GET | http://localhost:3000/ |
-| Metodo: GET | http://localhost:3000/api-docs/ |
-| Metodo: GET | http://localhost:3000/api/ping |
-| Metodo: GET | http://localhost:3000/api/test-db |
-| Metodo: GET | http://localhost:3000/api/health |
+| **Servidor** | http://localhost:3000/ |
+| **Swagger** | http://localhost:3000/api-docs/ |
+| **Ping** | http://localhost:3000/api/ping |
+| **Conexão** | http://localhost:3000/api/test-db |
+| **Health** | http://localhost:3000/api/health |
 
 #### 📁 Frontend 
 VSCode Terminal [2]
