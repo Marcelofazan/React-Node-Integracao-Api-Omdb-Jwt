@@ -14,13 +14,9 @@ Exemplo de Integração OMDb Api em Node.js e React com banco de dados SQL-Serve
 #### 📁 Requisitos do Projeto
 Necessário Habilitar TCP/IP no SQLServer Configuration Manager 
 
-- Passo 1: Forçar a porta 1433 no TCP/IPNo lado direito, clique com o botão direito em TCP/IP e escolha Properties (Propriedades).
-
-Na aba Protocol, mude a opção Enabled para Yes (caso esteja No).
-Agora, mude para a aba IP Addresses (Endereços IP).
-Role a janela até o final, lá embaixo na seção IPAll.
-Limpe completamente o campo TCP Dynamic Ports (deixe em branco, apague o 0 se tiver).
-No campo TCP Port, digite 1433.Clique em Aplicar e depois em OK.
+- Passo 1: Forçar a porta 1433 no TCP/IPNo lado direito, clique com o botão direito em TCP/IP e escolha Properties (Propriedades). Na aba Protocol, mude a opção Enabled para Yes (caso esteja No).
+- Agora, mude para a aba IP Addresses (Endereços IP). Role a janela até o final, lá embaixo na seção **IPAll**. Limpe completamente o campo **TCP Dynamic Ports** (deixe em branco, apague o 0 se tiver).
+- No campo TCP Port, digite 1433.Clique em Aplicar e depois em OK.
 
 - Passo 2: Reiniciar o serviço do Banco de DadosO SQL Server só vai ler essa nova porta se for reiniciado:
 No menu esquerdo do mesmo programa, suba e clique em SQL Server Services.No lado direito, clique com o botão direito em SQL Server (SQLEXPRESS) e escolha Restart (Reiniciar).
